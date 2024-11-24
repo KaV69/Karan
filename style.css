@@ -1,0 +1,64 @@
+:root{
+
+    /* light mode colors */
+
+    --bg-color: #BDE7FD;
+    --primary-color: #ff5500;
+    --text-color: black;
+    --border-color: black;
+    --box-shadow: 4px -2px 40px 9px rgba(128, 128, 128, 0.625);
+
+    
+}
+
+body{
+    margin:0;
+}
+
+   /* flex Container */
+
+    .flex-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+  /* Nav Bar */
+
+.navbar-container{
+    justify-content:space-between;
+    padding: 16px 32px;
+    background-color: #BDE7FD;
+    box-shadow: var(--bg-color) ;
+
+}
+
+  /* Logo */
+.logo-name{
+    font-weight: bolder ;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+  /* Line */
+  .line{
+    color:#ff5500;
+    font-size:2rem;
+    font-weight: bolder;
+    }
+
+   /* Nav Items */
+   .nav-items{
+    list-style: none;
+   }
+
+   .nav-items a {
+    text-decoration: none;
+    color : var(--text-color);
+   }
+
+   .nav-items a:hover{
+    color: var(--primary-color);
+   }
